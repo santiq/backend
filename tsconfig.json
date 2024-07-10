@@ -1,0 +1,38 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "strictNullChecks": true,
+    "strictPropertyInitialization": false,
+    "noImplicitOverride": true,
+    "allowSyntheticDefaultImports": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "forceConsistentCasingInFileNames": true,
+    "moduleResolution": "bundler",
+    "module": "esnext",
+    "pretty": true /* Create sourcemaps for d.ts files. */,
+    "sourceMap": true /* Create source map files for emitted JavaScript files. */,
+    "importsNotUsedAsValues": "remove" /* Specify emit/checking behavior for imports that are only used for types. */,
+    "isolatedModules": true /* Ensure that each file can be safely transpiled without relying on other imports. */,
+    "skipLibCheck": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "target": "ES2022",
+    "rootDir": "./",
+    "jsx": "react",
+    "outDir": "./dist/",
+    "noImplicitAny": false,
+    "lib": ["es2022"],
+    "allowImportingTsExtensions": true,
+    "types": ["jest"],
+    "allowJs": true
+  },
+  "ts-node": {
+    "esm": true,
+    "transpileOnly": true,
+    "files": true,
+    "experimentalResolver": true
+  },
+  "include": ["server/**/*"],
+  "exclude": ["node_modules", "dist", "tests"]
+}
